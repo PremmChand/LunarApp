@@ -88,7 +88,7 @@ Cloudinary (optional for media)
 
 📱 Screenshots
 🖼️
-<table> <tr> <td><img src="src/assets/screens/homescreen.png" width="200"/></td> <td><img src="src/assets/screens/homescreen1.png" width="200"/></td> <td><img src="src/assets/screens/categorycreen.png" width="200"/></td> <td><img src="src/assets/screens/categorycreen1.png" width="200"/></td> </tr> <tr> <td><img src="src/assets/screens/addCart.png" width="200"/></td> <td><img src="src/assets/screens/addcart.png" width="200"/></td> <td><img src="src/assets/screens/cart.png" width="200"/></td> <td><img src="src/assets/screens/orders.png" width="200"/></td> </tr> <tr> <td><img src="src/assets/screens/payment.png" width="200"/></td> <td><img src="src/assets/screens/admin1.png" width="200"/></td> <td><img src="src/assets/screens/admin2.png" width="200"/></td> <td><img src="src/assets/screens/admin3.png" width="200"/></td> </tr> </table>
+<table> <tr> <td><img src="src/assets/screens/homescreen.png" width="200"/></td> <td><img src="src/assets/screens/homescreen1.png" width="200"/></td> <td><img src="src/assets/screens/categoryscreen.png" width="200"/></td> <td><img src="src/assets/screens/categoryscreen1.png" width="200"/></td> </tr> <tr> <td><img src="src/assets/screens/addCart.png" width="200"/></td> <td><img src="src/assets/screens/cart.png" width="200"/></td> <td><img src="src/assets/screens/orders.png" width="200"/></td> </tr> <tr> <td><img src="src/assets/screens/payment.png" width="200"/></td> <td><img src="src/assets/screens/admin1.png" width="200"/></td> <td><img src="src/assets/screens/admin2.png" width="200"/></td> <td><img src="src/assets/screens/admin3.png" width="200"/></td> </tr> </table>
 
 
 Developed By Premm Chand
