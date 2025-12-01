@@ -7,6 +7,9 @@ import com.facebook.react.ReactHost
 import com.facebook.react.ReactNativeApplicationEntryPoint.loadReactNative
 import com.facebook.react.defaults.DefaultReactHost.getDefaultReactHost
 
+//import com.facebook.flipper.ReactNativeFlipper; // Import Flipper helper
+
+
 class MainApplication : Application(), ReactApplication {
 
   override val reactHost: ReactHost by lazy {
@@ -23,5 +26,7 @@ class MainApplication : Application(), ReactApplication {
   override fun onCreate() {
     super.onCreate()
     loadReactNative(this)
+    //  ReactNativeFlipper.initializeFlipper(this, getReactNativeHost().getReactInstanceManager());// added for flipper
   }
+  
 }

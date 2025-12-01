@@ -1,97 +1,94 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+Lunar – Full E-Commerce App (React Native + Node.js + MongoDB + Razorpay + Admin Panel)
 
-# Getting Started
+Lunar is a fully featured e-commerce mobile application built using React Native CLI with a complete backend using Node.js, Express, MongoDB, and Razorpay for payments.
+It includes:
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+✅ Category-wise product listings
+✅ Add to Cart & Checkout
+✅ Razorpay payment integration
+✅ Order tracking
+✅ Admin panel to add/manage products
+✅ Firebase asset storage / Cloudinary (optional)
 
-## Step 1: Start Metro
+🛒 App Highlights
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+Beautiful Home Screen with banners
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+Category-wise product browsing
 
-```sh
-# Using npm
-npm start
+Add/remove items from cart
 
-# OR using Yarn
-yarn start
-```
+Order summary, billing & delivery details
 
-## Step 2: Build and run your app
+Razorpay secure payment gateway
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+Admin Panel with:
 
-### Android
+Add Product
 
-```sh
-# Using npm
-npm run android
+View Product List
 
-# OR using Yarn
-yarn android
-```
+Update/Delete Product
 
-### iOS
+View Orders
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+Fully connected to MongoDB Atlas
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+Smooth UI with Redux state management
 
-```sh
-bundle install
-```
+🧩 Tech Stack
+Frontend – React Native
 
-Then, and every time you update your native dependencies, run:
+React Native CLI
 
-```sh
-bundle exec pod install
-```
+Redux Toolkit
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+Axios
 
-```sh
-# Using npm
-npm run ios
+React Navigation
 
-# OR using Yarn
-yarn ios
-```
+MMKV Storage
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+Lottie Animations
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
+Backend – Node.js
 
-## Step 3: Modify your app
+Express.js
 
-Now that you have successfully run the app, let's make changes!
+MongoDB + Mongoose
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+JWT Authentication
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+Razorpay Payment Gateway
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
+multer (if using image upload)
 
-## Congratulations! :tada:
+Cloudinary (optional for media)
 
-You've successfully run and modified your React Native App. :partying_face:
+🗂️ Project Structure
+/Lunar
+ ├── kart/                     # React Native App
+ │   ├── src/
+ │   │   ├── assets/
+ │   │   ├── components/
+ │   │   ├── screens/
+ │   │   ├── navigation/
+ │   │   ├── store/
+ │   │   ├── utils/
+ │   │   └── api/
+ │   └── android/ ios/ etc.
+ │
+ └── server/                   # Node.js Backend
+     ├── models/
+     ├── controllers/
+     ├── routes/
+     ├── config/
+     ├── uploads/
+     └── .env
 
-### Now what?
+📱 Screenshots
+🖼️
+<table> <tr> <td><img src="src/assets/screens/homescreen.png" width="200"/></td> <td><img src="src/assets/screens/homescreen1.png" width="200"/></td> <td><img src="src/assets/screens/categorycreen.png" width="200"/></td> <td><img src="src/assets/screens/categorycreen1.png" width="200"/></td> </tr> <tr> <td><img src="src/assets/screens/addCart.png" width="200"/></td> <td><img src="src/assets/screens/addcart.png" width="200"/></td> <td><img src="src/assets/screens/cart.png" width="200"/></td> <td><img src="src/assets/screens/orders.png" width="200"/></td> </tr> <tr> <td><img src="src/assets/screens/payment.png" width="200"/></td> <td><img src="src/assets/screens/admin1.png" width="200"/></td> <td><img src="src/assets/screens/admin2.png" width="200"/></td> <td><img src="src/assets/screens/admin3.png" width="200"/></td> </tr> </table>
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
 
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Developed By Premm Chand
